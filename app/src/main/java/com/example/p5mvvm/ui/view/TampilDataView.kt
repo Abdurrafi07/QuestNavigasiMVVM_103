@@ -25,6 +25,7 @@ fun TampilDataView(
         TampilData(Param = "Nama", Argu = uiState.nama )
         TampilData(Param = "Jenis Kelamin", Argu = uiState.gender )
         TampilData(Param = "Alamat", Argu = uiState.alamat )
+        TampilData(Param = "Email", Argu = uiState.email )
         Button(onClick = onBackButton)
         {
             Text(text = "Kembali")
