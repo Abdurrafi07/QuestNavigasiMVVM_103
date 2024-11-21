@@ -40,6 +40,17 @@ fun FormulirView(modifier: Modifier = Modifier,
     Column(modifier = modifier.fillMaxSize().padding(16.dp),
         horizontalAlignment = Alignment.CenterHorizontally) {
         TextField(
+            value = nim,
+            onValueChange = {nim = it},
+            label = {
+                Text(text = "NIM")
+            },
+            placeholder = {
+                Text(text = "Isi NIM Anda")
+            },
+            modifier = Modifier.fillMaxWidth().padding(5.dp)
+        )
+        TextField(
             value = nama,
             onValueChange = {nama = it},
             label = {
