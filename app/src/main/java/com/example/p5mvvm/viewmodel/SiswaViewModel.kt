@@ -18,11 +18,12 @@ class SiswaViewModel : ViewModel() {
     fun saveDataSiswa(ls: MutableList<String>){
         _statusUI.update { statusSaatIni ->
             statusSaatIni.copy(
-                nama = ls[0],
-                gender = ls[1],
-                alamat = ls[2],
-                email = ls[3],
-                notelp = ls[4]
+                nim = ls[0],
+                nama = ls[1],
+                gender = ls[2],
+                alamat = ls[3],
+                email = ls[4],
+                notelp = ls[5]
             )
         }
     }
