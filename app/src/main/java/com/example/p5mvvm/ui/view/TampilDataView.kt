@@ -22,6 +22,7 @@ fun TampilDataView(
         .fillMaxSize()
         .padding(16.dp))
     {
+        TampilData(Param = "NIM", Argu = uiState.nim )
         TampilData(Param = "Nama", Argu = uiState.nama )
         TampilData(Param = "Jenis Kelamin", Argu = uiState.gender )
         TampilData(Param = "Alamat", Argu = uiState.alamat )
