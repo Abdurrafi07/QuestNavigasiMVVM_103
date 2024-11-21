@@ -35,7 +35,7 @@ fun FormulirView(modifier: Modifier = Modifier,
     var gender by remember { mutableStateOf("") }
     var nim by remember { mutableStateOf("") }
 
-    val listData: MutableList<String> = mutableListOf(nim, nama, gender, alamat, email, notelp)
+    val listData: MutableList<String> = mutableListOf(nim, nama, gender, email, alamat, notelp)
 
     Column(modifier = modifier.fillMaxSize().padding(16.dp),
         horizontalAlignment = Alignment.CenterHorizontally) {
