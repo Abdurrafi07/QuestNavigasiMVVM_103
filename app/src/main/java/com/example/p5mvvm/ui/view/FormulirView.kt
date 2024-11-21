@@ -33,6 +33,7 @@ fun FormulirView(modifier: Modifier = Modifier,
     var alamat by remember { mutableStateOf("") }
     var notelp by remember { mutableStateOf("") }
     var gender by remember { mutableStateOf("") }
+    var nim by remember { mutableStateOf("") }
 
     val listData: MutableList<String> = mutableListOf(nama, gender, alamat, email, notelp)
 
