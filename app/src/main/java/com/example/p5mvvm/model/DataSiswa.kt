@@ -5,5 +5,6 @@ data class DataSiswa(
     val alamat: String = "",
     val gender: String = "",
     val email: String = "",
-    val notelp: String = ""
+    val notelp: String = "",
+    val nim: String = ""
 )
